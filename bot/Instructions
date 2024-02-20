@@ -1,2 +1,5 @@
-Before launching the bot, you need to create two folders in the folder where the bot file itself is located: video and audio.
-Then just launch the bot 
+Before using the bot, create two more folders in the same folder where main.py is located, a "video" and "audio" folder.
+After that, enter in the command line: pip install telebot pytube moviepy pathlib subprocess psutil
+If it gives you an error, try running this command first: apt install python3-pip
+Then try again.
+and when everything is installed, run: python3 autostart.py
